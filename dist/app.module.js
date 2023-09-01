@@ -20,7 +20,11 @@ exports.AppModule = AppModule;
 exports.AppModule = AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
+<<<<<<< HEAD
             mongoose_1.MongooseModule.forRoot('mongodb://localhost:27017/e-nach-backend'),
+=======
+            mongoose_1.MongooseModule.forRoot('mongodb+srv://prem27ji:prem123@mydb.g91fodj.mongodb.net/?retryWrites=true&w=majority'),
+>>>>>>> 7ba6fd949bae2dc0cf21bc3a46b880a2ce48841f
             auth_module_1.AuthModule,
             user_module_1.UserModule,
             mandate_module_1.MandateModule,

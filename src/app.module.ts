@@ -10,7 +10,12 @@ import { MandateModule } from './mandate/mandate.module';
   imports: [
     MongooseModule.forRoot(
       // process.env.DATA_BASE_URL,
+<<<<<<< HEAD
       'mongodb://localhost:27017/e-nach-backend',
+=======
+      'mongodb+srv://prem27ji:prem123@mydb.g91fodj.mongodb.net/?retryWrites=true&w=majority'
+      // 'mongodb://localhost:27017/e-nach-backend',
+>>>>>>> 7ba6fd949bae2dc0cf21bc3a46b880a2ce48841f
       //  { useNewUrlParser: true }
     ),
     AuthModule,
